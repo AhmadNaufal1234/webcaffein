@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <title>CaffeIn | Ngopi Kuyyy!</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- My Style -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Navbar start -->
+  <nav class="navbar">
+    <a href="beranda.html" class="navbar-logo">Caffe<span>.In</span></a>
+
+    <div class="navbar-nav">
+      <a href="index.html">Beranda</a>
+      <a href="menu.html">Menu</a>
+      <a href="profile.html">Profile</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="kontak.html">Kontak</a>
+    </div>
+    <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <!-- Search Form start -->
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="Cari disini...">
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+    <!-- Search Form end -->
+
+    <!-- Shopping Cart start -->
+    <div class="shopping-cart">
+      <div class="cart-item">
+        <img src="images/dessert/cookies.jpg" alt="Product 1">
+        <div class="item-detail">
+          <h3>Cookies</h3>
+          <div class="item-price">IDR 5K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="images/minuman/Es Lemon.jpg" alt="Product 1">
+        <div class="item-detail">
+          <h3>Es Lemon</h3>
+          <div class="item-price">IDR 7K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+
+    </div>
+    <!-- Shopping Cart end -->
+
+
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- Hero Section start -->
+  <section class="hero" id="home">
+    <div class="mask-container">
+      <main class="content">
+        <h1>Hidupkan Hari Dengan Secangkir <span>Kopi</span></h1>
+        <p>Cara Nyaman Untuk Belanja Makanan & Minuman Terbaik</p>
+        <button class="button"><a href="menu.html">Belanja Sekarang</a></button>
+      </main>
+    </div>
+  </section>
+  <!-- Hero Section end -->
+
+  <div class="slide-container">
+    <div class="slide" id="slide1"></div>
+    <div class="slide" id="slide2"></div>
+</div>
+
+
+  <!-- Footer start -->
+  <footer>
+    <div class="socials">
+      <a href="#"><i data-feather="instagram"></i></a>
+      <a href="#"><i data-feather="twitter"></i></a>
+      <a href="#"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="index.html">Beranda</a>
+      <a href="menu.html">Menu</a>
+      <a href="profile.html">Profile</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="kontak.html">Kontak</a>
+    </div>
+
+    <div class="credit">
+      <p>Presented By <a href="">AhmadNaufal Corporation</a>. | &copy; 2024.</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- Feather Icons -->
+  <script>
+    feather.replace()
+  </script>
+
+  <!-- My Javascript -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
